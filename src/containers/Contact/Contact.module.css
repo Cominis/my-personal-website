@@ -1,0 +1,45 @@
+.parallax2 {
+    /* The image used */
+    background-image: url('../../assets/images/background7.jpg');
+  
+    /* Set a specific height */
+    height: 900px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+
+  .ContactData {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .ContactData {
+      width: 500px;
+  }
+}
+
+.divider {
+    padding: 0px;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+  }

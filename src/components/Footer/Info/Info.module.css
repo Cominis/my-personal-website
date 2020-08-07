@@ -1,0 +1,15 @@
+.Info {
+    font-size: medium;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.Info > p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Title {
+    font-weight: bold;
+}

@@ -1,0 +1,86 @@
+.parallax {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/images/background.jpg');
+  
+    /* Set a specific height */
+    height: 900px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+  
+  
+  
+.heroText {
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 60px;
+}
+
+.item {
+    padding-bottom: 200px;
+}
+
+.about {
+    background-color: darkcyan;
+    height: 900px;
+    text-align: center;
+    padding-left: 100px;
+
+}
+
+.about > div {
+    display: flex;
+    padding: 0 50px;
+}
+
+.about > h2 {
+    margin: 0 auto;
+    padding: 40px;
+    font-size: 60px;
+    color: white;
+    font-weight: lighter;
+}
+
+.about > div > p > h3 {
+    margin: 0 auto;
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+}
+
+.about > div > p > h4 {
+    margin: 0 auto;
+    font-size:  1.4rem;
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.about > div > p {
+    padding: 0 0;
+    flex: 1 1 auto;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+
+.about > div > img {
+    padding: 0 50px;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.about > div > button {
+    align-self: flex-start;
+}
