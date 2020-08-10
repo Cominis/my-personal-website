@@ -1,4 +1,4 @@
-.parallax2 {
+.parallax {
     /* The image used */
     background-image: url('../../assets/images/background7.jpg');
   
@@ -14,6 +14,12 @@
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
   }
 
   .ContactData {

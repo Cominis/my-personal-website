@@ -31,3 +31,13 @@
 .Close {
     transform: translateX(-100%);
 }
+
+.Footer {
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    bottom: 150px;
+    position: absolute;
+}

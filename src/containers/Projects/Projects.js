@@ -27,7 +27,7 @@ const projects = (props) => {
             <h3 className="vertical-timeline-element-title">Personal Website</h3>
             <h4 className="vertical-timeline-element-subtitle">By using React</h4>
             <p>
-                Website to show my resume and projects.
+                Website to show my resume and projects. Currently in development.
                 <br /><br />
             </p>
             <div>
@@ -46,7 +46,7 @@ const projects = (props) => {
             <h3 className="vertical-timeline-element-title">Simple Time Tracker</h3>
             <h4 className="vertical-timeline-element-subtitle">Android App</h4>
             <p>
-                App for tracking time spent in particular activity.
+                App for tracking time spent in particular activity. It's published on 'Google Play'.
                 <br /><br />
             </p>
             <div>

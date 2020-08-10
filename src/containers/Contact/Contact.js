@@ -160,7 +160,7 @@ class Contact extends Component {
 
         return (
             <React.Fragment>
-                <div className={css.parallax2}>
+                <div className={css.parallax}>
                     <h2 className={css.divider}>contact Me</h2>
                     <div className={css.ContactData}>
                         {form}
