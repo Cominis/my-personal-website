@@ -1,19 +1,21 @@
 import React from 'react';
 import css from './Projects.module.css';
 
-
+import Button from '../../components/UI/Button/Button';
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
 import StarIcon from '@material-ui/icons/Star';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-const projects = () => {
+const projects = (props) => {
     const timelineElements = [
         <VerticalTimelineElement
             onTimelineElementClick={() => {
                 // eslint-disable-next-line no-alert
-                alert('onTimelineElementClick event fired');
+                //alert('onTimelineElementClick event fired');
+                // console.log(props);
+                // window.location = 'https://github.com/Cominis/my-personal-website';
             }}
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -26,7 +28,11 @@ const projects = () => {
             <h4 className="vertical-timeline-element-subtitle">By using React</h4>
             <p>
                 Website to show my resume and projects.
-          </p>
+                <br /><br />
+            </p>
+            <a href="https://github.com/Cominis/my-personal-website">
+                <Button type='Primary'>go to project</Button>
+            </a>
         </VerticalTimelineElement>,
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -38,7 +44,11 @@ const projects = () => {
             <h4 className="vertical-timeline-element-subtitle">Android App</h4>
             <p>
                 App for tracking time spent in particular activity.
-          </p>
+                <br /><br />
+            </p>
+            <a href="https://github.com/Cominis/TimeTracker">
+                <Button type='Primary'>go to project</Button>
+            </a>
         </VerticalTimelineElement>,
         <VerticalTimelineElement
             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}

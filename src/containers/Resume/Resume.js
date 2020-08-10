@@ -44,7 +44,7 @@ const resume = () => {
         <VerticalTimelineElement
             onTimelineElementClick={() => {
                 // eslint-disable-next-line no-alert
-                alert('onTimelineElementClick event fired');
+                //alert('onTimelineElementClick event fired');
             }}
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -91,7 +91,7 @@ const resume = () => {
         </VerticalTimelineElement>,
         <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="2009 - July 2014"
+            date="2010 - July 2014"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             icon={<SchoolIcon />}
         >
@@ -99,6 +99,9 @@ const resume = () => {
                 J. Vienožinskis Art School
           </h3>
             <h4 className="vertical-timeline-element-subtitle">Diploma</h4>
+            <p>
+                Four years of study.
+            </p>
         </VerticalTimelineElement>,
         <VerticalTimelineElement
             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}

@@ -19,7 +19,7 @@
   
   
   
-.heroText {
+.title {
     display: block;
     position: absolute;
     color: white;
@@ -38,11 +38,6 @@
 
 }
 
-.about > div {
-    display: flex;
-    padding: 0 50px;
-}
-
 .about > h2 {
     margin: 0 auto;
     padding: 40px;
@@ -51,28 +46,33 @@
     font-weight: lighter;
 }
 
-.about > div > p > h3 {
-    margin: 0 auto;
-    font-size: 1.4rem;
-    color: white;
-    text-align: left;
+.about > div {
+    display: flex;
+    padding: 0 50px;
 }
 
-.about > div > p > h4 {
-    margin: 0 auto;
-    font-size:  1.4rem;
-    color: white;
-    text-align: left;
-    font-weight: lighter;
-}
-
-.about > div > p {
+.text {
     padding: 0 0;
     flex: 1 1 auto;
     font-size: 1.2rem;
     text-align: left;
     font-weight: bold;
     color: white;
+}
+
+.text > h3 {
+    margin: 0 auto;
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+}
+
+.text > h4 {
+    margin: 0 auto;
+    font-size:  1.4rem;
+    color: white;
+    text-align: left;
+    font-weight: lighter;
 }
 
 .about > div > img {
