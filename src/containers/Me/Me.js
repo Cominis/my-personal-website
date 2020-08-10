@@ -25,7 +25,7 @@ const me = (props) => {
                 <img
                     className={css.mainFoto}
                     src={require('../../assets/images/as.png')}
-                    alt='me'
+                    alt='Me'
                 />
                 <div>
                     <Button type='Primary' clicked={resumeClickedHandler}>Resume</Button>
@@ -51,7 +51,7 @@ const me = (props) => {
                 <div className={css.inlineBlock}>
                     <img className={css.computerImage}
                         src={require('../../assets/images/comp.png')}
-                        alt='Computer image'
+                        alt='Computer'
                     />
                 </div>
             </div>
