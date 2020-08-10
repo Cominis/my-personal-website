@@ -3,13 +3,15 @@
     text-align: center;
     vertical-align: middle;
     line-height: 20px;
-}
-
-.Info > p {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0 30px;
 }
 
 .Title {
     font-weight: bold;
 }
+
+@media (max-width: 700px) {
+    .Info {
+        font-size: small;
+    }
+  }

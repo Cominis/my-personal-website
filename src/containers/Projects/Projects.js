@@ -30,9 +30,12 @@ const projects = (props) => {
                 Website to show my resume and projects.
                 <br /><br />
             </p>
-            <a href="https://github.com/Cominis/my-personal-website">
-                <Button type='Primary'>go to project</Button>
-            </a>
+            <div>
+                <a href="https://github.com/Cominis/my-personal-website">
+                    <Button type='Primary'>go to project</Button>
+                </a>
+            </div>
+
         </VerticalTimelineElement>,
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -46,9 +49,12 @@ const projects = (props) => {
                 App for tracking time spent in particular activity.
                 <br /><br />
             </p>
-            <a href="https://github.com/Cominis/TimeTracker">
-                <Button type='Primary'>go to project</Button>
-            </a>
+            <div>
+                <a href="https://github.com/Cominis/TimeTracker">
+                    <Button type='Primary'>go to project</Button>
+                </a>
+            </div>
+
         </VerticalTimelineElement>,
         <VerticalTimelineElement
             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}

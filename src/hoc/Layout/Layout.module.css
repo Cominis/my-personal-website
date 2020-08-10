@@ -4,6 +4,18 @@
   }
 
 .ContentWrap {
-    padding-top: 6rem;
-    padding-bottom: 6rem;    /* Footer height */
+    padding-top: 5rem;
+    padding-bottom: 5rem;    /* Footer height */
+  }
+
+  @media (max-width: 499px){
+    .ContentWrap {
+      padding-top: 3rem;
+    }
+  }
+
+  @media (max-width: 649px) {
+    .ContentWrap {
+      padding-bottom: 0rem;
+    }
   }

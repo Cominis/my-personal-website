@@ -3,7 +3,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/images/background.jpg');
   
     /* Set a specific height */
-    height: 900px;
+    min-height: 900px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -17,70 +17,73 @@
     flex-flow: column wrap;
 }
   
-  
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
   
 .title {
     display: block;
     position: absolute;
     color: white;
-    font-size: 60px;
+    font-size: 10vmin;
 }
 
-.item {
-    padding-bottom: 200px;
+.mainFoto {
+    width: 32vmin;
+    height: 32vmin;
+    padding-bottom: 32vmin;
 }
 
 .about {
     background-color: darkcyan;
-    height: 900px;
+    min-height: 900px;
     text-align: center;
-    padding-left: 100px;
-
+    padding: 0 6vmin;
 }
 
 .about > h2 {
     margin: 0 auto;
-    padding: 40px;
-    font-size: 60px;
+    padding: 3vmin;
+    font-size: 4rem;
     color: white;
     font-weight: lighter;
 }
 
-.about > div {
-    display: flex;
-    padding: 0 50px;
+.computerImage {
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
 }
-
-.text {
+.inlineBlock {
+    display: inline-block;
     padding: 0 0;
-    flex: 1 1 auto;
+    width: 50%;
     font-size: 1.2rem;
     text-align: left;
     font-weight: bold;
     color: white;
 }
 
-.text > h3 {
+.inlineBlock > h3 {
     margin: 0 auto;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: white;
     text-align: left;
 }
 
-.text > h4 {
+.inlineBlock > h4 {
     margin: 0 auto;
-    font-size:  1.4rem;
+    font-size:  1.6rem;
     color: white;
     text-align: left;
     font-weight: lighter;
 }
 
-.about > div > img {
-    padding: 0 50px;
-    object-fit: contain;
-    align-self: flex-start;
-}
-
-.about > div > button {
-    align-self: flex-start;
+@media (max-width: 800px) {
+    .inlineBlock {
+        display: block;
+        width: 100%;
+    }
 }

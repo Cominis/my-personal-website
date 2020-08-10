@@ -23,11 +23,9 @@ const me = (props) => {
             <div className={css.parallax} >
                 <h1 className={css.title}>Hi,  <br />I am Daumantas</h1>
                 <img
-                    className={css.item}
+                    className={css.mainFoto}
                     src={require('../../assets/images/as.png')}
-                    width='200px'
-                    height='200px'
-                    alt='as'
+                    alt='me'
                 />
                 <div>
                     <Button type='Primary' clicked={resumeClickedHandler}>Resume</Button>
@@ -36,28 +34,26 @@ const me = (props) => {
             </div>
             <div className={css.about}>
                 <h2>About Me</h2>
-                <div>
-                    <div className={css.text}>
-                        <h3>Daumantas Šimkus</h3>
-                        <h4>Student at Vilnius University</h4>
-                        <br /><br />
+                <div className={css.inlineBlock}>
+                    <h3>Daumantas Šimkus</h3>
+                    <h4>Student at Vilnius University</h4>
+                    <br /><br />
                         Self-taught Android apps developer who even published his own app on google play. Currently unemployed but coding daily with React or Kotlin.
                         <br /><br />
                         This page is my first real React project of which I am proud of. I am eager to learn new languages and frameworks. If you think I would be a good employee, please contact me :)
                         <br /><br />
                         My stack: PostgreSQL, SQLite, React, HTML, CSS, JavaScript, Assembly 8086, Github, Java, C#, Kotlin.
-                    </div>
-                    <img
+                        <br /><br />
+
+                    <Button type='Primary' clicked={cantactClickedHandler} style={{ fontSize: '1rem' }}>Cantact me</Button>
+
+                </div>
+                <div className={css.inlineBlock}>
+                    <img className={css.computerImage}
                         src={require('../../assets/images/comp.png')}
-                        width='448px'
-                        height='448px'
-                        alt='as'
+                        alt='Computer image'
                     />
                 </div>
-                <div>
-                    <Button type='Primary' clicked={cantactClickedHandler}>Cantact me</Button>
-                </div>
-
             </div>
         </React.Fragment>
     );
