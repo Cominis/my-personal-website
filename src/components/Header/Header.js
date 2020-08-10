@@ -1,10 +1,12 @@
 import React from 'react';
 import css from './Header.module.css';
-import NavigationItems from './NavigationItems/NavigationItems';
+import NavigationItems from '../Navigation/NavigationItems/NavigationItems';
+import DrawerToggle from '../Navigation/SideDrawer/DrawerToggle/DrawerToggle';
 
-const header = () => {
+const header = (props) => {
     return (
         <header className={css.Toolbar}>
+            <DrawerToggle clicked={props.drawerToggleClicked} />
             <nav className={css.DesktopOnly}>
                 <NavigationItems />
             </nav>

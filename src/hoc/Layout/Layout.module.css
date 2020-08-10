@@ -1,0 +1,9 @@
+.PageContainer {
+    position: relative;
+    min-height: 100vh;
+  }
+
+.ContentWrap {
+    padding-top: 6rem;
+    padding-bottom: 6rem;    /* Footer height */
+  }
