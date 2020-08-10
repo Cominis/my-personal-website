@@ -128,6 +128,11 @@ class Contact extends Component {
         this.setState({ orderForm: updatedOrderForm, formIsValid: formIsValid });
     }
 
+    msgHandler = (event) => {
+        event.preventDefault();
+        //todo
+    }
+
     render() {
         const formElementsArray = [];
         for (let key in this.state.orderForm) {
@@ -137,7 +142,7 @@ class Contact extends Component {
             });
         }
         let form = (
-            <form onSubmit={this.orderHandler}>
+            <form action="mailto:like.dmt.spam@gmail.com" method="post" onSubmit={this.msgHandler}>
                 {formElementsArray.map(formElement => (
                     <Input
                         key={formElement.id}
