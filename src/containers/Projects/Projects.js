@@ -39,6 +39,25 @@ const projects = (props) => {
         </VerticalTimelineElement>,
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="July 2020"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<WorkIcon />}
+        >
+            <h3 className="vertical-timeline-element-title">Word Learner</h3>
+            <h4 className="vertical-timeline-element-subtitle">Android App</h4>
+            <p>
+                App to help track learned new words per day.
+            <br /><br />
+            </p>
+            <div>
+                <a href="https://github.com/Cominis/WordLearner" target="_blank">
+                    <Button type='Primary'>go to project</Button>
+                </a>
+            </div>
+
+        </VerticalTimelineElement>,
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="May 2020"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<WorkIcon />}
