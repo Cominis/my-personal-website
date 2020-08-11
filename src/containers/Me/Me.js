@@ -21,10 +21,10 @@ const me = (props) => {
     return (
         <React.Fragment>
             <div className={css.parallax} >
-                <h1 className={css.title}>Hi,  <br />I am Daumantas</h1>
+                <h1 className={css.title}>Hi,  <br />I'm Daumantas</h1>
                 <img
                     className={css.mainFoto}
-                    src={require('../../assets/images/as.png')}
+                    src={require('../../assets/images/me.png')}
                     alt='Me'
                 />
                 <div>
@@ -38,11 +38,11 @@ const me = (props) => {
                     <h3>Daumantas Šimkus</h3>
                     <h4>Student at Vilnius University</h4>
                     <br /><br />
-                        Self-taught Android apps developer who even published his own app on google play. Currently unemployed but coding daily with React or Kotlin.
+                        Self-taught Android apps developer who in spare time developing webpages and apps. Coding daily with React or Kotlin.
                         <br /><br />
-                        This page is my first real React project of which I am proud of. I am eager to learn new languages and frameworks. If you think I would be a good employee, please contact me :)
+                        This page is my first real React project of which I am proud of. I am eager to learn new languages and frameworks. Please feel free to contact me if you need any further information :)
                         <br /><br />
-                        My stack: PostgreSQL, SQLite, React, HTML, CSS, JavaScript, Assembly 8086, Github, Java, C#, Kotlin.
+                        My skill set: PostgreSQL, SQLite, React, HTML, CSS, JavaScript, Assembly 8086, Git, Java, C#, Kotlin.
                         <br /><br />
 
                     <Button type='Primary' clicked={cantactClickedHandler} style={{ fontSize: '1rem' }}>Cantact me</Button>

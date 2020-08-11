@@ -84,7 +84,7 @@ const resume = () => {
             icon={<SchoolIcon />}
         >
             <h3 className="vertical-timeline-element-title">
-                Bachelor of Sowtware Engineering
+                Bachelor of Software Engineering
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
             <p>Student</p>
