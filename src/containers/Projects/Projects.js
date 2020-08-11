@@ -31,7 +31,7 @@ const projects = (props) => {
                 <br /><br />
             </p>
             <div>
-                <a href="https://github.com/Cominis/my-personal-website">
+                <a href="https://github.com/Cominis/my-personal-website" target="_blank">
                     <Button type='Primary'>go to project</Button>
                 </a>
             </div>
@@ -50,7 +50,26 @@ const projects = (props) => {
                 <br /><br />
             </p>
             <div>
-                <a href="https://github.com/Cominis/TimeTracker">
+                <a href="https://github.com/Cominis/TimeTracker" target="_blank">
+                    <Button type='Primary'>go to project</Button>
+                </a>
+            </div>
+
+        </VerticalTimelineElement>,
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="January 2020"
+            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            icon={<WorkIcon />}
+        >
+            <h3 className="vertical-timeline-element-title">Type It</h3>
+            <h4 className="vertical-timeline-element-subtitle">Created with Unity Engine</h4>
+            <p>
+                Game developed with Unity in global Game Jam.
+            <br /><br />
+            </p>
+            <div>
+                <a href="https://github.com/Cominis/Type-it" target="_blank">
                     <Button type='Primary'>go to project</Button>
                 </a>
             </div>
